@@ -1,6 +1,11 @@
-<ul>
-    <li ng-repeat="store in $ctrl.stores">
-        <span>{{store.name}}</span>
-        <p>{{store.snippet}}</p>
-    </li>
-</ul>
+<table>
+    <tr ng-repeat="store in $ctrl.stores">
+        <td>
+            <img width="50px" src='{{store.img}}' />
+        </td>
+        <td>
+            <b>{{store.name}}</b>
+            <br/>Download
+        </td>
+    </tr>
+</table>

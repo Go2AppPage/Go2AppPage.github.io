@@ -2,3 +2,10 @@ body {
   padding-top: 20px;
 }
 
+table {
+   margin: auto;
+}
+
+th, td {
+  padding: 10px;
+}
