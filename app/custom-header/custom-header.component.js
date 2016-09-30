@@ -8,6 +8,7 @@ angular.
     controller: function CustomHeaderController($location) {
 
         this.appname = $location.search().name;
+        this.custtype = $location.search().custtype;
 
       }
   });
