@@ -11,7 +11,9 @@ table {
 }
 
 th, td {
-  font-size: 30px;
+  font-size: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 tr {
@@ -19,9 +21,15 @@ tr {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 60px;
+  padding: 10px;
 }
 
 p, ul, li {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+div {
+    background-color: lightyellow;
+
 }
