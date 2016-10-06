@@ -6,8 +6,22 @@ body {
 table {
    margin: auto;
    text-align: left;
+   border-spacing: 10px;
+   border-collapse: separate;
 }
 
 th, td {
-  padding: 10px;
+  font-size: 30px;
+}
+
+tr {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+p, ul, li {
+  font-size: 25px;
 }

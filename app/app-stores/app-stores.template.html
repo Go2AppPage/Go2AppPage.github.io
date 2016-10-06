@@ -1,11 +1,10 @@
 <table>
-    <tr ng-repeat="store in $ctrl.stores">
+    <tr ng-repeat="store in $ctrl.stores" ng-click="$ctrl.goToPage(store.url)">
         <td>
-            <img width="50px" src='{{store.img}}' />
+            <img width="100px" src='{{store.img}}'/>
         </td>
         <td>
             <b>{{store.name}}</b>
-            <br/><a href='{{store.url}}'>Go To App Page</a>
         </td>
     </tr>
 </table>

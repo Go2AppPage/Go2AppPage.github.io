@@ -5,7 +5,7 @@ angular.
   module('appStores').
   component('appStores', {
     templateUrl: 'app-stores/app-stores.template.html',
-    controller: function AppStoresController($location) {
+    controller: function AppStoresController($location, $window) {
 
         var appid = $location.search().id;
 
@@ -28,5 +28,9 @@ angular.
             img: 'img/slideme_app_store.png'
           }
         ];
+
+        this.goToPage = function(url) {
+            $window.location.href = url;
+        };
       }
   });
