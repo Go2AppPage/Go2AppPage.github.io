@@ -16,15 +16,15 @@ angular.
             img: 'img/Google_Play_Store.png'
           }, {
             name: 'Amazon App Store',
-            url: 'https://play.google.com/store/apps/details?id=' + appid,
+            url: 'http://www.amazon.com/gp/mas/dl/android?p=' + appid,
             img: 'img/amazon_app_store.png'
           }, {
             name: 'Samsung App Store',
-            url: 'https://play.google.com/store/apps/details?id=' + appid,
+            url: 'samsungapps://ProductDetail/' + appid,
             img: 'img/samsung_app_store.png'
           }, {
             name: 'SlideMe App Store',
-            url: 'https://play.google.com/store/apps/details?id=' + appid,
+            url: 'http://slideme.org/app/' + appid,
             img: 'img/slideme_app_store.png'
           }
         ];
