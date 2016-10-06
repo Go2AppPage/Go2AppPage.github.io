@@ -8,22 +8,25 @@
 </head>
 <body>
 <div>
-    <h1>Why Am I seeing this page?</h1>
+    <h1>Why am I seeing this page?</h1>
 </div>
 <hr>
 <p>
-    Our app has an inbuilt logic to detect the store from which the app was installed and redirect you to the app page on the detected store. At the moment this works only for Google Play Store and Amaxon App Store. If you downloaded the app from any other source we could not identify it and hence request you to choose the source from the list below so that we can take you to the right store.
+    Our app has an inbuilt logic to detect the app store (app market) from which the app was installed and redirect you to the app page on the detected store. (For Techies: It uses the installer package name of the app to identify the app store from which it was installed)<br/>
+    <br/><b>At the moment the auto-detection works only for Google Play Store (direct install from public store) and Amazon App Store.</b>
+    If you downloaded the app from any other source we could not identify it and hence request you to choose the source from the list below so that we can take you to the right store.
+    <br/><br/><b>@Reviewers/Testers:</b> When the app will be downloaded from the original (public) app store the app page will directly open and it will not bring the user to this page.
 </p>
 <hr>
 <div>
-    <h1>When can the store not be identified?</h1>
+    <h1>When can the source app store not be identified?</h1>
 </div>
 <hr>
 
     <p>
         In the following cases:
         <ul>
-            <li>If you are reviweing the app and have not downloaded it from the main app store</li>
+            <li>If you are reviweing the app and have not downloaded it from the main (public) app store</li>
             <li>If you directly downloaded the app using the apk</li>
             <li>If you downloaded the app from a store other than Google Play Store or Amazon app store</li>
         </ul>
