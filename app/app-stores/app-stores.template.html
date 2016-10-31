@@ -1,10 +1,15 @@
 <table>
-    <tr ng-repeat="store in $ctrl.stores" ng-click="$ctrl.goToPage(store.url)">
+    <!--<tr ng-repeat="store in $ctrl.stores" ng-click="$ctrl.goToPage(store.url)">-->
+        <!--<td>-->
+            <!--<img width="100px" src='{{store.img}}'/>-->
+        <!--</td>-->
+        <!--<td>-->
+            <!--<b>{{store.name}}</b>-->
+        <!--</td>-->
+    <!--</tr>-->
+    <tr>
         <td>
-            <img width="100px" src='{{store.img}}'/>
-        </td>
-        <td>
-            <b>{{store.name}}</b>
+            We could not identify the store you downloaded this app from. If you download from Google Play Store or Amazon App Store directly you will be redirected to the app page. For others stores please go to the store and search for the app directly.
         </td>
     </tr>
 </table>
